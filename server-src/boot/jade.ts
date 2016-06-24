@@ -6,7 +6,7 @@ module.exports = function (server) {
   server.set('views', pathToViews);
 
   server.get(
-    ['/','/:view'], function (req, res) {
+    ['/test/:view'], function (req, res) {
 /*    ['/modules/:module/views/:view',
       '/modules/:module/views/:elements/:view'], function (req, res) {
       let module = req.params.module;
