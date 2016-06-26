@@ -1,23 +1,14 @@
 {
-  "name": "rdash-angular2",
+  "name": "genie-exec-ui",
   "version": "0.0.2",
-  "description": "AngularJS2 implementation of the RDash admin dashboard theme http://rdash.github.io",
-  "repository": "https://github.com/ziyasal/rdash-angular2",
+  "description": "AngularJS2 (with TypeScript) implementation of genie-exec web app",
   "scripts": {
     "postinstall": "npm run typings",
-    "tsc": "tsc",
-    "tsc:w": "tsc --watch",
-    "live": "live-server --open=src",
-    "start": "concurrently \"npm run tsc:w\" \"npm run live\" ",
     "typings": "typings install"
   },
-  "author": "Ziya SARIKAYA <ziyasal>",
-  "license": "MIT",
+  "author": "John Reeme <john.reeme@soteradefense.com> (http://soteradefense.com)",
+  "license": "WTFPL",
   "devDependencies": {
-    "concurrently": "^2.0.0",
-    "live-server": "^0.9.2",
-    "typescript": "^1.8.9",
-    "typings": "^0.7.11"
   },
   "dependencies": {
     "angular2": "2.0.0-beta.14",

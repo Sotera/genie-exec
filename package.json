@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "main": "app/server.js",
   "scripts": {
-    "start": "node app/server.js",
-    "test": "./node_modules/.bin/mocha --reporter spec js/test",
-    "posttest": "nsp check"
+    "postinstall": "npm run typings",
+    "typings": "typings install",
+    "start": "node server/server.js"
   },
   "dependencies": {
     "compression": "^1.0.3",
@@ -21,9 +21,9 @@
     "serve-favicon": "^2.3.0"
   },
   "keywords": [
-    "firmament",
-    "docker",
-    "cli"
+    "loopback",
+    "typescript",
+    "genie-exec"
   ],
   "devDependencies": {
     "nsp": "^2.1.0",
