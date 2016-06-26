@@ -20,7 +20,7 @@ export class Alerts {
     });
   }
 
-  closeAlert(index) {
+  closeAlert(index:number) {
     this.alerts.splice(index, 1);
   }
 }
